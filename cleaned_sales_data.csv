@@ -1,0 +1,31 @@
+Order_ID,Order_Date,Product,Category,Quantity,Unit_Price,Region,Payment_Method,Customer_Age,Sales_Amount
+1001,2026-01-03,Notebook,Stationery,3,45,Chennai,UPI,22,135
+1002,2026-01-03,Pen,Stationery,10,10,Chennai,Cash,25,100
+1003,2026-01-04,Water Bottle,Accessories,2,250,Bengaluru,Card,31,500
+1004,2026-01-05,Backpack,Accessories,1,899,Hyderabad,UPI,28,899
+1005,2026-01-05,Notebook,Stationery,5,45,Chennai,Card,34,225
+1006,2026-01-06,Desk Lamp,Electronics,1,650,Mumbai,Cash,41,650
+1007,2026-01-07,Pen,Stationery,12,10,Bengaluru,UPI,23,120
+1008,2026-01-08,Water Bottle,Accessories,3,250,Hyderabad,Card,29,750
+1009,2026-01-08,Backpack,Accessories,2,899,Chennai,UPI,26,1798
+1010,2026-01-09,Notebook,Stationery,4,45,Bengaluru,Cash,21,180
+1011,2026-01-10,Desk Lamp,Electronics,2,650,Mumbai,Card,38,1300
+1012,2026-01-10,Pen,Stationery,8,10,Hyderabad,UPI,24,80
+1013,2026-01-11,Notebook,Stationery,3,45,Chennai,Card,27,135
+1014,2026-01-12,Water Bottle,Accessories,2,250,Bengaluru,UPI,32,500
+1015,2026-01-12,Backpack,Accessories,1,899,Chennai,Cash,30,899
+1016,2026-01-13,Pen,Stationery,9,10,Mumbai,UPI,22,90
+1017,2026-01-14,Desk Lamp,Electronics,1,650,Hyderabad,Card,28,650
+1018,2026-01-14,Notebook,Stationery,6,45,Bengaluru,UPI,29,270
+1019,2026-01-15,Water Bottle,Accessories,2,250,Chennai,Cash,35,500
+1020,2026-01-16,Backpack,Accessories,1,899,Bengaluru,Card,27,899
+1021,2026-01-17,Notebook,Stationery,3,45,Mumbai,UPI,19,135
+1022,2026-01-18,Pen,Stationery,15,10,Hyderabad,UPI,24,150
+1023,2026-01-18,Water Bottle,Accessories,1,250,Chennai,Card,33,250
+1024,2026-01-19,Desk Lamp,Electronics,1,650,Bengaluru,UPI,42,650
+1025,2026-01-20,Notebook,Stationery,5,45,Chennai,UPI,26,225
+1026,2026-01-21,Pen,Stationery,7,10,Mumbai,Card,23,70
+1027,2026-01-22,Backpack,Accessories,2,899,Hyderabad,UPI,31,1798
+1028,2026-01-23,Water Bottle,Accessories,3,250,Bengaluru,UPI,28,750
+1029,2026-01-24,Desk Lamp,Electronics,1,650,Chennai,Card,39,650
+1030,2026-01-25,Notebook,Stationery,4,45,Hyderabad,UPI,28,180

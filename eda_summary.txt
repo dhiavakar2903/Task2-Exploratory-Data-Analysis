@@ -1,0 +1,68 @@
+TASK 2: EXPLORATORY DATA ANALYSIS (EDA) — RESULTS
+Dataset: Cleaned fictional sales dataset from Task 1
+Rows analysed: 30
+Date range: 03 Jan 2026 to 25 Jan 2026
+Missing values in analysis data: 0
+
+OVERALL SALES
+Total sales: ₹15,538.00
+Mean sales per order: ₹517.93
+Median sales per order: ₹385.00
+Mean vs median: mean > median, consistent with a right-skewed distribution caused by a small number of higher-value orders.
+
+PRODUCT INSIGHTS
+Top product by total sales: Backpack (₹6,293)
+              Orders  Units_Sold  Total_Sales  Average_Order_Sales
+Product                                                           
+Backpack           5           7         6293              1258.60
+Desk Lamp          5           6         3900               780.00
+Water Bottle       6          13         3250               541.67
+Notebook           8          33         1485               185.62
+Pen                6          61          610               101.67
+
+CATEGORY INSIGHTS
+Top category by total sales: Accessories (₹9,543)
+             Orders  Units_Sold  Total_Sales
+Category                                    
+Accessories      11          20         9543
+Electronics       5           6         3900
+Stationery       14          94         2095
+
+REGION INSIGHTS
+Region with most orders: Chennai (10 orders)
+Region with highest total sales: Chennai (₹4,917)
+           Orders  Total_Sales  Average_Order_Sales
+Region                                             
+Chennai        10         4917               491.70
+Hyderabad       7         4507               643.86
+Bengaluru       8         3869               483.62
+Mumbai          5         2245               449.00
+
+PAYMENT METHOD INSIGHTS
+Most frequently used payment method: UPI (15 of 30 orders)
+                Orders  Total_Sales
+Payment_Method                     
+UPI                 15         7780
+Card                10         5429
+Cash                 5         2329
+
+TIME-BASED INSIGHT
+Highest-sales day: 08 Jan 2026 (₹2,548)
+
+RELATIONSHIPS AND POSSIBLE OUTLIERS
+Correlation between Unit_Price and Sales_Amount: 0.861
+Correlation between Quantity and Sales_Amount: -0.527
+The positive unit-price relationship is expected because order sales are calculated as quantity multiplied by unit price. The negative quantity correlation should not be interpreted as quantity reducing sales; products with larger unit prices tend to have smaller quantities in this small sample.
+IQR upper threshold for Sales_Amount: ₹1,604.38
+Potential high-value points above that threshold: 2. Review them in context; a statistical outlier is not automatically an error.
+ Order_ID  Product  Sales_Amount
+     1009 Backpack          1798
+     1027 Backpack          1798
+
+SUMMARY OF FINDINGS
+1. Backpack generated the largest total sales (₹6,293) even though it did not have the highest order count.
+2. Accessories led sales by category (₹9,543); stationery generated more order volume but lower total sales.
+3. Chennai recorded the most orders (10), while Chennai generated the largest total sales.
+4. UPI was the most frequently selected payment method.
+5. Daily sales varied; 08 Jan 2026 was the strongest day in this sample.
+6. The dataset is small and fictional, so findings illustrate EDA techniques rather than representing a real business. Validate any decisions with larger real-world data.
